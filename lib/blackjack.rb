@@ -50,10 +50,11 @@ end
 #####################################################
 
 def runner
+count = 0 
  welcome
  initial_round
-  until hit? > 21
-    hit?
+  until count > 21
+    count += hit?
   end_game
  end
 end
