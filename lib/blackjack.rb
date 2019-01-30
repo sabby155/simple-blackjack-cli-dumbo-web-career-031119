@@ -52,7 +52,7 @@ end
 def runner
 welcome
 # initial_round
-  until hit?(initial_round) > 21
+  until hit?(initial_round) >=22 
     hit?(initial_round)
   end
   if hit?(initial_round) >= 22
