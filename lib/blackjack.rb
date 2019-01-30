@@ -52,8 +52,8 @@ end
 def runner
  welcome
  initial_round
-  until total > 21
-    hit?(total)
+  until hit? > 21
+    hit?
   end_game
  end
 end
