@@ -51,12 +51,12 @@ end
 
 def runner
 welcome
-# initial_round
-  until hit?(initial_round) >=22 
+initial_round
+  until hit?(initial_round) >= 22 
     hit?(initial_round)
     display_card_total(initial_round)
   end
-  if hit?(initial_round) >= 22
+  if hit?(initial_round) >= 22 && !invalid_command
     end_game(initial_round)
     display_card_total(initial_round)
   end  
