@@ -50,6 +50,10 @@ end
 #####################################################
 
 def runner
-  # code runner here
+ welcome
+ initial_round
+ hit?
+ if total > 21
+ end_game
 end
     
