@@ -59,5 +59,6 @@ count = 0
     # end_game(count)
     # end
   end
+  end_game(count)
 end
     
