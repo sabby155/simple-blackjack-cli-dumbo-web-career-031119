@@ -56,7 +56,7 @@ initial_round
     hit?(initial_round)
     display_card_total(initial_round)
   end
-  if hit?(initial_round) >= 22 && !invalid_command
+  if hit?(initial_round) >= 22 
     end_game(initial_round)
     display_card_total(initial_round)
   end  
