@@ -55,5 +55,6 @@ def runner
  hit?
  if total > 21
  end_game
+ end
 end
     
