@@ -55,9 +55,9 @@ count = 0
 #  count += initial_round
   until count > 21
     count += hit?(initial_round)
-    if count > 21
-    end_game(count)
-    end
+    # if count > 21
+    # end_game(count)
+    # end
   end
 end
     
