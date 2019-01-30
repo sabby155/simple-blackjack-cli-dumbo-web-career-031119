@@ -56,7 +56,7 @@ welcome
     hit?(initial_round)
   end
   if hit?(initial_round) > 21
-    end_game(num)
+    end_game(initial_round)
   end  
 end
     
