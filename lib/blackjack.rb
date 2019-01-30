@@ -52,9 +52,9 @@ end
 def runner
 count = 0 
  welcome
-# count += initial_round
+ count += initial_round
   until count > 21
-    count += hit?(initial_round)
+    count += hit?(count)
  end
 end
     
