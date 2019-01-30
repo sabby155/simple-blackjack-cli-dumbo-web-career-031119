@@ -54,8 +54,6 @@ welcome
 # initial_round
   until hit?(initial_round) > 21
     hit?(initial_round)
-  else 
-    end_game(initial_round)
   end
 end
     
