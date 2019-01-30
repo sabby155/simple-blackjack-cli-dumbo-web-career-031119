@@ -55,6 +55,7 @@ count = 0
  count += initial_round
   until count > 21
     count += hit?(count)
+    display_card_total(count)
     # if count > 21
     # end_game(count)
     # end
